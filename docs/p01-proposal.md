@@ -11,7 +11,17 @@ The *federal interest rates* are a key driving force of the United States econom
 For our Project, Jaden, Mat, and I are cross-analyzing data on changes in the federal interest rate to data on rates of economic decline, growth, and inflation to explore the effectiveness of the action of adjusting the interest rates by the government. We also plan to explore the consequences and benefits that these adjustments have on the economy as a whole and see how well it scales against the adjustments. The 4 main data sets that we are using for our project are the **Federal Reserves Interest Rates**, which displays sub data sets such as Unemployment rates and Real GDP as well as displaying the inflation rates set the year to year from 1954 to the present, the **Historical Federal Interest Rates** which serves to supplement extended looks into the inflation rates from the previous dataset, **the Consumer Price Index of all urban consumers in the US**, as well as the **US Consumer Price Index** data sets which displays the average CPI in each city.
 
 ## Design Situation
-Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.  (about 400 words)
+#### Framing the topic of concern
+*Governmental oversight* is always a necessary step in maintaining a functioning society. An extremely important aspect of the society which is the United States is an *immensely strong economy backed by an effective federal reserve*. Based on the state of the economy, the fed increases and decreases the federal interest rate to combat inflation or stimulate spending. That being said, **government entities are by nature highly flawed**, thus we must **validate the efficacy** of the fed by *cross referencing* inflation and the relative fed response.
+
+#### Human Values
+A human value that could be involved with the datasets provided could be **integrity**. If an influential figure such as a politician or, more specifically, someone who is campaigning to run for Presidency. These figures of massive influence could use the datasets provided to *skew or push* a certain narrative that *benefits them* and allows them to gain an unfair political advantage. Data compiled when formulating the basket of goods may not always accurately reflect the actual mix of goods and services that individuals within the economy are purchasing.
+
+#### Stakeholders
+Insert here, bold and italize as needed
+
+#### Benefits and Harms
+Insert here, bold and italize as needed
 
 ## Research questions
 For our research questions, we aim to look into our choice of topic while utilizing these three questions as a basis and guide for the information that we would look and dissect into:
