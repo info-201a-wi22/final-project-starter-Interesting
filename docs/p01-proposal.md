@@ -2,7 +2,7 @@
 
 #### **INFO-201: Technical Foundations of Informatics - The Information School - University of Washington for Winter 2022**
 
-**Authors**: *Mat Medina*, *Jaden Wang*, *Seung Lee*
+**Authors**: Mat Medina, Jaden Wang***, Seung Lee
 
 ## Abstract
 The *federal interest rates* are a key driving force of the United States economy; from combating inflation to stimulating economic growth, no one move affects the economy more than the federal reserve. That being said, how effective is the adjustment of interest rates really? How does the economy scale with this supposedly highly effective system? We plan on cross analyzing the federal interest rate changes with the rates of economic growth, decay, and inflation. **Keywords:** *Basket of Goods*, *Unaccounted Factors*, *Estimation*.
