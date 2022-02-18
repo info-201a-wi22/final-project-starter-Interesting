@@ -17,11 +17,11 @@ For our Project, Jaden, Mat, and I are cross-analyzing data on changes in the fe
 #### Human Values
 A human value that could be involved with the datasets provided could be **integrity**. If an influential figure such as a politician or, more specifically, someone who is campaigning to run for Presidency had access to these datasets, they could use it to push their own agendas instead of ones that are for the common good. These figures of massive influence could use the datasets provided to *skew or push* a certain narrative that *benefits them* and allows them to gain an unfair political advantage. Data compiled when formulating the basket of goods may not always accurately reflect the actual mix of goods and services that individuals within the economy are purchasing.
 
-#### Stakeholders
-Insert here, bold and italize as needed
+#### Stakeholders 
+The American people (as well as other countries that look to the United States' interest rates and federal) are all primary stakeholders in this project. It is extremely important for the American People (those whom the economy affects the most) to understand how effective the entities in charge of the economy are. The motivations are simple: ensure those who are in in control of the most powerful economy in the world stay accountable. The indirect stakeholders are everyone outside of the United States. There are an exorbitant amount of countries that rely on the US economy for support and guidance; they too should have validation that the fed knows what its doing.
 
 #### Benefits and Harms
-Insert here, bold and italize as needed
+The result of this technological intervention benefits almost every demographic. Keeping government entities accountable ensures informed voters and healthier environment. The drawbacks are that an increased in data and awareness may allow select few to exploit that information and find ways to manipulate the economy in ways we can't foresee. Additionally, it also harms those who bet against the market such as bearish options traders and those of a similar caliber.
 
 ## Research questions
 For our research questions, we aim to look into our choice of topic while utilizing these three questions as a basis and guide for the information that we would look and dissect into:
