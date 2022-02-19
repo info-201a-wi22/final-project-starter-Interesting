@@ -55,3 +55,4 @@ Banton, Caroline. “Interest Rate.” Investopedia, Investopedia, 8 Feb. 2022, 
 
 Comenity Direct, https://direct.comenity.com/financial-learning/why-the-fed-funds-rate-should-matter-to-you. 
 
+“Why Does the Fed Care about Inflation?” Website, 21 Oct. 2014, https://www.clevelandfed.org/en/our-research/center-for-inflation-research/inflation-101/why-does-the-fed-care-get-started.aspx#:~:text=When%20inflation%20is%20too%20high,economy%20and%20move%20inflation%20higher. 
