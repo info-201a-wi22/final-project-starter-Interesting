@@ -1,4 +1,5 @@
 library(readr)
+setwd("E:/Users/Pen/Documents/Informatics/Projects/final-project-starter-Interesting")
 cpi <- read_csv("data/inflation.csv")
 
 library(dplyr)
