@@ -9,6 +9,8 @@ mean_cpi <- cpi %>%
   summarize(CPIYearMean = mean(CPI)) %>% 
   filter(between(Year, 1960, 2015))
 
+fed_rate <- read_csv("data/federal_interest_rates.csv") %>% 
+  filter(between(Year, 1960, 2015))
 inflation_mean <- fed_rate %>% 
   group_by(Year) %>% 
   summarize(InflationMean = mean(`Inflation Rate`, na.rm=TRUE))
