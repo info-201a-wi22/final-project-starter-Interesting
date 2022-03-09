@@ -1,4 +1,5 @@
 library(readr)
+
 cpi <- read_csv("data/inflation.csv")
 
 library(dplyr)
