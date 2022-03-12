@@ -1,5 +1,6 @@
 library(shiny)
 
-source('./shiny/summaryTab.R')
+source('../shiny/summaryTab.R')
+source('../shiny/introPage.R')
 
-ui <- navbarPage("Cool Title Here!", summaryTab)
+ui <- navbarPage("Interest-ing!", introTab, summaryTab)
