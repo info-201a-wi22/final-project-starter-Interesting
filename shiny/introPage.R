@@ -15,7 +15,7 @@ introTab <- tabPanel("Intro",
                                    c("Research Question 1" = "What are the factors that determines the federal interest rate?", 
                                      "Research Question 2" = "What intended effects are considered when calculating the federal interest rate?", 
                                      "Research Question 3" = "What sort of outcomes have the shift of the federal interest rate over time caused our economy?")),
-                         textOutput("result"),
+                         textOutput("researchQuestion"),
                          p(),
                          p(em("The datasets we'll be utilizing:")),
                          HTML(paste(
