@@ -13,7 +13,7 @@ interactiveTrends <- tabPanel("Trend Tab",
                                                              "Consumer Price Index" = "CPI_YearlyMean")),
                                   sliderInput(
                                     inputId = "rangeTrend",
-                                    label = "Between the years (inclusive)", min = 1960, max = 2015, value = c(1, 56)
+                                    label = "Between the years (inclusive)", min = 1960, max = 2015, value = c(1961, 2010)
                                   ),
                                   
                                   checkboxInput("trendLine", label = strong("Show Trendline"), value = TRUE),
