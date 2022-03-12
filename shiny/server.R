@@ -2,9 +2,32 @@ library(shiny)
 library(ggplot2)
 library(stringr)
 source("../source/table of summary info.R")
+source("../source/summary.R")
 
 server <- function (input, output) {
   output$researchQuestion <- renderText((input$research))
+  
+  output$fedRateBarPlot <- renderPlot({
+    fed_rate_plot <- ggplot(data = fed_rate_mean, aes(x=Year, y=RateYearMean, fill=factor(ifelse(Year==input$bargraph_integer[1], "Highlighted", "Normal")))) + 
+      geom_bar(stat="identity") + 
+      scale_fill_manual(name="Year", values=c("red", "grey50"))
+    fed_rate_plot
+  })
+  
+  output$inflationBarPlot <- renderPlot({
+    inflation_plot <- ggplot(data = inflation_mean, aes(x=Year, y=InflationMean, fill=factor(ifelse(Year==input$bargraph_integer[1], "Highlighted", "Normal")))) + 
+      geom_bar(stat="identity") + 
+      scale_fill_manual(name="Year", values=c("red", "grey50"))
+    inflation_plot
+  })
+  
+  output$explainBarTrend  <- renderUI({
+    inf <- inflation_mean %>% filter(Year==input$bargraph_integer[1]) %>% pull(InflationMean)
+    fed <- fed_rate_mean %>% filter(Year==input$bargraph_integer[1]) %>% pull(RateYearMean)
+    div(p("Year: ", input$bargraph_integer[1]),
+    p("InputTrend: ", inf),
+    p("InputTrend: ", fed))
+  })
   
   output$plotTrend <- renderPlot({
     
