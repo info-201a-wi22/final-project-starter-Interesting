@@ -25,8 +25,8 @@ server <- function (input, output) {
     inf <- inflation_mean %>% filter(Year==input$bargraph_integer[1]) %>% pull(InflationMean)
     fed <- fed_rate_mean %>% filter(Year==input$bargraph_integer[1]) %>% pull(RateYearMean)
     div(p("Year: ", input$bargraph_integer[1]),
-    p("InputTrend: ", inf),
-    p("InputTrend: ", fed))
+    p("Federal Rate: ", fed),
+    p("Inflation: ", inf))
   })
   
   output$plotTrend <- renderPlot({

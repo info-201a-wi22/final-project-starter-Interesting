@@ -25,6 +25,6 @@ summaryTab <- tabPanel("Summary",
            
            h4("What sort of outcomes have the shift of the federal interest rate over time caused our economy?"),
            p("This one is a little hard to say. Whereas proof of a perfectly running fed would ideally result in a flat inflation curve, that simply is not the case as from
-             ", year_start," to ", year_end, ", the Consumer Price Index went from ", mean_cpi_start," to ", mean_cpi_end," That being said however, it is evident that certain inflation trends 
+             1960 to 2015 the Consumer Price Index went from 29.57500 to 237.01700. That being said however, it is evident that certain inflation trends 
              have been seen to decrease after the interest rate was risen to compensate.")
         )
