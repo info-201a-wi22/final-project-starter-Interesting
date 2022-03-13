@@ -1,8 +1,9 @@
 library(shiny)
-
-source('./summaryTab.R')
-source('./barTrendTab.R')
 source('./introPage.R')
-source('./dataTrend.R')
+source('./dataTrendPage.R')
+source('./dataBarPage.R')
+source('./histogramPage.R')
+source('./summaryPage.R')
+source('./reportPage.R')
 
-ui <- navbarPage("Interest-ing!", introTab, interactiveTrends, interactiveBarTrends, summaryTab)
+ui <- navbarPage("Interest-ing!", introTab, trendTab, barTab, histogramTab, summaryTab, reportTab)

@@ -1,7 +1,7 @@
 library(shiny)
 library(plotly)
 
-interactiveTrends <- tabPanel("Trend Tab",
+trendTab <- tabPanel("Interactive Trend Tab",
                               titlePanel("Looking over trends"),
                               sidebarLayout(
                                 sidebarPanel(

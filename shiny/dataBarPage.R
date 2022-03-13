@@ -12,7 +12,7 @@ inflation_plot <- ggplot(data = inflation_mean, aes(x=Year, y=InflationMean)) +
   geom_bar(stat="identity")
 inflation_plot %>% plotly::ggplotly()
 
-interactiveBarTrends <- tabPanel("Interactive Bar Graph",
+barTab <- tabPanel("Interactive Bar Graph",
                                  sidebarLayout(
                                    sidebarPanel(
                                      sliderInput("bargraph_integer", "Integer:",

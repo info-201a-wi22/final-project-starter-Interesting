@@ -1,9 +1,9 @@
 library(shiny)
 
 source("../source/summary.R")
-source("../source/table of summary.R")
+source("../source/table of summary info.R")
 
-ReportTab <- tabPanel ("Report",
+reportTab <- tabPanel ("Report",
           h1("Abstract"),
           p("The federal interest rates are a key driving force of the United States economy; from combating inflation to stimulating economic growth, no one move affects the economy more than the federal reserve. That being said, how effective is the adjustment of interest rates really? How does the economy scale with this supposedly highly effective system? We plan on cross analyzing the federal interest rate changes with the rates of economic growth, decay, and inflation. Keywords: Basket of Goods, Unaccounted Factors, Estimation."),
           h1("Introduction"),

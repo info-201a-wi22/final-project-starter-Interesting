@@ -7,6 +7,24 @@ source("../source/summary.R")
 server <- function (input, output) {
   output$researchQuestion <- renderText((input$research))
   
+  output$histPlot <- renderPlotly({
+    histLabel <- c("Federal Interest Rate" = "Federal_rate_YearlyMean", 
+                    "Inflation Rate" = "Inflation_YearlyMean", 
+                    "Unemployment Rate" = "Unemployment_YearlyMean",
+                    "Consumer Price Index" = "CPI_YearlyMean")
+    nameHist1 <- names(histLabel)[histLabel == input$histVar1]
+    nameHist2 <- names(histLabel)[histLabel == input$histVar2]
+    plot1 <- plot_ly(table_of_summary_information,
+      x = ~get(input$histVar1),
+      y = ~get(input$histVar2), 
+      type = 'scatter',
+      mode = 'markers') %>% 
+      layout(title="Unemployment mean Vs CPI mean", 
+             xaxis = list(title = nameHist1), yaxis = list(title = nameHist2))
+    
+    })
+  
+  
   output$fedRateBarPlot <- renderPlot({
     fed_rate_plot <- ggplot(data = fed_rate_mean, aes(x=Year, y=RateYearMean, fill=factor(ifelse(Year==input$bargraph_integer[1], "Highlighted", "Normal")))) + 
       geom_bar(stat="identity") + 
