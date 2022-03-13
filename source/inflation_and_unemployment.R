@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(stringi)
 
-fed_rate <- read_csv("../data/federal_interest_rates.csv") %>% 
+fed_rate <- read_csv("./data/federal_interest_rates.csv") %>% 
   filter(between(Year, 1960, 2015))
 
 inflation_mean <- fed_rate %>% 

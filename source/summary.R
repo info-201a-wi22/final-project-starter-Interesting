@@ -1,6 +1,6 @@
 library(readr)
 
-cpi <- read_csv("../data/inflation.csv")
+cpi <- read_csv("./data/inflation.csv")
 
 library(dplyr)
 library(stringi)
@@ -12,7 +12,7 @@ mean_cpi <- cpi %>%
 
 # highest_cpi <- mean_cpi %>% arrange(desc(CPIYearMean))
 
-fed_rate <- read_csv("../data/federal_interest_rates.csv") %>% 
+fed_rate <- read_csv("./data/federal_interest_rates.csv") %>% 
   filter(between(Year, 1960, 2015))
 fed_rate_mean <- fed_rate %>% 
   group_by(Year) %>% 

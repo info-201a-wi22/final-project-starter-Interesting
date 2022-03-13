@@ -1,6 +1,6 @@
 library(shiny)
 
-source("../source/summary.R")
+source("./source/summary.R")
 
 summaryTab <- tabPanel("Summary",
            h1("Summary of the Federal Reserve!"),

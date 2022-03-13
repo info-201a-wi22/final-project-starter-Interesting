@@ -1,8 +1,8 @@
 library(shiny)
 library(ggplot2)
 library(stringr)
-source("../source/table of summary info.R")
-source("../source/summary.R")
+source("./source/table of summary info.R")
+source("./source/summary.R")
 
 server <- function (input, output) {
   output$researchQuestion <- renderText((input$research))

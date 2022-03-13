@@ -3,7 +3,7 @@ library("tidyverse")
 library("ggplot2")
 library("stringi")
 
-source("../source/table of summary info.R")
+source("./source/table of summary info.R")
 
 # Bar chart of Mean rate of inflation and mean rate of CPI
 Inflation_CPI_table <- table_of_summary_information %>%

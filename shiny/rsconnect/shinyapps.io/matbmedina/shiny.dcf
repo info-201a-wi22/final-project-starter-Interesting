@@ -1,0 +1,11 @@
+name: shiny
+title:
+username:
+account: matbmedina
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5840681
+bundleId: 5677024
+url: https://matbmedina.shinyapps.io/shiny/
+when: 1647154345.65467
+lastSyncTime: 1647154345.65467

@@ -1,7 +1,7 @@
 library(shiny)
 
-source("../source/summary.R")
-source("../source/table of summary info.R")
+source("./source/summary.R")
+source("./source/table of summary info.R")
 
 reportTab <- tabPanel ("Report",
           h1("Abstract"),

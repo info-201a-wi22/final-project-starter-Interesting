@@ -1,7 +1,7 @@
 library(shiny)
 library(plotly)
 
-source("../source/summary.R")
+source("./source/summary.R")
 
 fed_rate_plot <- ggplot(data = fed_rate_mean, aes(x=Year, y=RateYearMean, fill=factor(ifelse(Year=="1980", "Highlighted", "Normal")))) + 
   geom_bar(stat="identity") + 
